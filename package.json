@@ -1,6 +1,6 @@
 {
   "name": "angular-toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular factory for creating small toast pop ups",
   "main": "./src",
   "repository": {
