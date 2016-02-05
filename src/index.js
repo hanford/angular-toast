@@ -23,7 +23,7 @@ function ngToast ($document, $compile, $rootScope, $controller, $timeout) {
     var scope = $rootScope.$new()
 
     scope.killme = function (event) {
-      var element = event.srcElement
+      var element = event.target
 
       element.classList.remove('flyIn')
       element.classList.add('flyOut')
