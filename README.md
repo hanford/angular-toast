@@ -2,6 +2,8 @@
 
 I couldn't find a toast library that fit my needs and was reasonably small, so I ended up building one with a dead simple API and decided to share it. There is a *low* frame ```.gif``` at the bottom
 
+[![NPM][toast-icon]][toast-url]
+
 #### Installation  
 Installation is super easy, simply add the dependencies to your build, inject it and call the ```toast.show()``` method.
 
@@ -31,3 +33,6 @@ The first parameter is your custom message, and the second *optional* parameter 
 
 
 ![Low frame gif](./screen-cap.gif)
+
+[toast-icon]: https://nodei.co/npm/angular-toast.png?downloads=true
+[toast-url]: https://npmjs.org/package/angular-toast
