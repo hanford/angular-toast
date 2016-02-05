@@ -1,5 +1,7 @@
 ## angular-toast
 
+[Live Demo!](https://hanford.github.io/angular-toast)
+
 I couldn't find a toast library that fit my needs and was reasonably small, so I ended up building one with a dead simple API and decided to share it. There is a *low* frame ```.gif``` at the bottom
 
 [![NPM][toast-icon]][toast-url]
