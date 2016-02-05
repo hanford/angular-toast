@@ -34,10 +34,6 @@
   "peerDependencies": {
     "angular": ">=1.3"
   },
-  "files": [
-    "dist/*",
-    "README.md"
-  ],
   "standard": {
     "ignore": [
       "./dist/"
