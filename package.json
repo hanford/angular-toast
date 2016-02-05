@@ -2,10 +2,7 @@
   "name": "angular-toast",
   "version": "1.0.0",
   "description": "Angular factory for creating small toast pop ups",
-  "main": "./src",
-  "directories": {
-    "example": "example"
-  },
+  "main": ["./dist/angular-toast.min.js", "./dist/angular-toast.css"],
   "repository": {
     "type": "git",
     "url": "https://github.com/hanford/angular-toast.git"
