@@ -51,7 +51,6 @@ function ngToast ($document, $compile, $rootScope, $controller, $timeout) {
       $timeout(function () {
         toast.remove()
       }, 200)
-
     }, timeout)
   }
 }
