@@ -1,13 +1,16 @@
 {
   "name": "angular-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular factory for creating small toast pop ups",
-  "main": ["./dist/angular-toast.min.js", "./dist/angular-toast.css"],
+  "main": [
+    "./dist/angular-toast.min.js",
+    "./dist/angular-toast.css"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/hanford/angular-toast.git"
   },
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/hanford/angular-toast/issues"
   },
@@ -30,7 +33,6 @@
   "scripts": {
     "build": "browserify -e ./src/index.js -t [exposify --expose [ --angular=angular ] ] | uglifyjs > ./dist/angular-toast.min.js"
   },
-  "license": "ISC",
   "peerDependencies": {
     "angular": ">=1.3"
   },
